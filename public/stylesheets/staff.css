@@ -1,0 +1,182 @@
+/* COLOR PALETTE
+#F7FFF7 - almost white
+#343434 - dark gary - almost black
+#2F3061 - blue dark
+#FFE660 - yellow
+#A1C6D7 - blue light */
+
+/* Global rules */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* a {
+  text-decoration: none;
+  background-color: #2f3061;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 5px;
+  margin-top: 1px;
+} */
+
+/* header section */
+header {
+  padding: 10px;
+  background: #2f3061;
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 20px;
+  line-height: 5vh;
+  text-align: center;
+}
+header a {
+  text-decoration: none;
+  color: inherit;
+}
+h2 {
+  margin: 0;
+  padding: 20px 0;
+}
+
+navigation {
+  width: 980px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+navigation ul {
+  width: 980px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+navigation ul li {
+  display: inline;
+  margin-right: 1em;
+}
+
+/* Content section */
+#content {
+  width: 70%;
+  /* min-height: 600px; */
+  min-height: 80vh;
+  margin: 0 auto;
+  /* padding: 0 30px; */
+}
+
+footer {
+  height: 5vh;
+  background: #2f3061;
+  color: white;
+  text-align: center;
+  line-height: 5vh;
+  vertical-align: middle;
+}
+
+/* Actions */
+
+.actions {
+  margin-bottom: 1em;
+}
+
+/* Lists */
+
+table {
+  border-collapse: collapse;
+  vertical-align: top;
+}
+
+table.list {
+  width: 100%;
+}
+
+table.list tr td {
+  border: 1px solid #999999;
+}
+
+table.list tr th {
+  border: 1px solid #0b61a5;
+  background: #0b61a5;
+  color: white;
+  text-align: left;
+}
+
+/* Forms */
+
+dl {
+  clear: both;
+  overflow: hidden;
+  margin: 0.5em 0;
+}
+
+dt {
+  float: left;
+  font-weight: bold;
+  width: 125px;
+}
+
+dd {
+  float: left;
+  margin-left: 1em;
+}
+
+#operations {
+  clear: both;
+  margin: 1em 0 1em 75px;
+}
+
+/* Errors */
+
+.errors {
+  display: inline-block;
+  border: 2px solid red;
+  color: red;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.errors ul {
+  margin-bottom: 0;
+  padding-left: 1em;
+}
+
+/* Session Messages */
+
+#message {
+  color: #0b61a5;
+  background: white;
+  border: 2px solid #0b61a5;
+  padding: 1em 15px;
+  margin: 1em 30px;
+  width: 890px;
+}
+
+/* pagination */
+.pagination {
+  margin: 1em 0;
+}
+
+.pagination a,
+.pagination span {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.pagination span.selected {
+  font-weight: bold;
+  color: #000;
+}
